@@ -1,0 +1,10 @@
+#ifndef DATA_PARSER_H_
+#define DATA_PARSER_H_
+
+#include "Arduino.h"
+#include "util.h"
+
+// bool GetHv507Parameters(String message, uint8_t &pincontrol0, uint8_t &pincontrol1, uint8_t &pincontrol2, uint8_t &pincontrol3, uint8_t &pincontrol4, uint8_t &pincontrol5, uint8_t &pincontrol6, uint8_t &pincontrol7, uint8_t &pincontrol8, uint8_t &pincontrol9, uint8_t &pincontrol10, uint8_t &pincontro11, uint8_t &pincontrol12, uint8_t &pincontrol13, uint8_t &pincontrol14, uint8_t &pincontrol15, uint8_t &pincontrol16, uint8_t &pincontrol17, uint8_t &pincontrol18, uint8_t &pincontrol19, uint8_t &pincontrol20, uint8_t &pincontrol21, uint8_t &pincontro22, uint8_t &pincontrol23, uint8_t &pincontrol24, uint8_t &pincontrol25, uint8_t &pincontrol26, uint8_t &pincontrol27, uint8_t &pincontrol28, uint8_t &pincontrol29, uint8_t &pincontrol30, uint8_t &pincontrol31, uint8_t &pincontrol32, uint8_t &pincontrol33, uint8_t &pincontrol34, uint8_t &pincontrol35, uint8_t &pincontrol36, uint8_t &pincontrol37, uint8_t &pincontrol38, uint8_t &pincontrol39, uint8_t &pincontrol40, uint8_t &pincontrol41, uint8_t &pincontrol42, uint8_t &pincontrol43, uint8_t &pincontrol44, uint8_t &pincontrol45, uint8_t &pincontrol46, uint8_t &pincontrol47, uint8_t &pincontrol48, uint8_t &pincontrol49, uint8_t &pincontrol50, uint8_t &pincontrol51, uint8_t &pincontrol52, uint8_t &pincontrol53, uint8_t &pincontrol54, uint8_t &pincontro55, uint8_t &pincontrol56, uint8_t &pincontrol57, uint8_t &pincontrol58, uint8_t &pincontrol59, uint8_t &pincontrol60, uint8_t &pincontrol61, uint8_t &pincontrol62, uint8_t &pincontrol63, uint8_t &pincontrol64, uint8_t &pincontrol65, uint8_t &pincontro66, uint8_t &pincontrol67, uint8_t &pincontrol68, uint8_t &pincontrol69, uint8_t &pincontrol70, uint8_t &pincontrol71, String time1, String time2, String time3, String time4, String time5, String time6, String time7, String time8, String time9);
+bool GetHv507Parameters(String message, uint8_t &pincontrol0, uint8_t &pincontrol1, uint8_t &pincontrol2, uint8_t &pincontrol3, uint8_t &pincontrol4, uint8_t &pincontrol5, uint8_t &pincontrol6, uint8_t &pincontrol7);
+
+#endif
